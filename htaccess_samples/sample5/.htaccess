@@ -1,0 +1,40 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} ^system.*
+RewriteRule ^(.*)$ /index.php?/$1 [L]
+
+RewriteCond %{REQUEST_URI} ^application.*
+RewriteRule ^(.*)$ /index.php?/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+
+
+ErrorDocument 404 /index.php
+
+
+
+SetOutputFilter DEFLATE
+SetEnvIfNoCase Request_URI .(?:gif|jpe?g|png)$ 
+no-gzip dont-vary
+SetEnvIfNoCase Request_URI 
+.(?:exe|t?gz|zip|bz2|sit|rar)$ 
+no-gzip dont-vary
+SetEnvIfNoCase Request_URI .pdf$ no-gzip dont-vary
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4.0[678] no-gzip
+BrowserMatch bMSIE !no-gzip !gzip-only-text/html
+
+ExpiresActive On
+ExpiresDefault "now"
+ExpiresByType text/html "now"
+ExpiresByType text/xml "now"
+ExpiresByType text/php "now"
+
+
+Header unset ETag
+FileETag None
+ExpiresDefault A2419200
+Header append Cache-Control "public"

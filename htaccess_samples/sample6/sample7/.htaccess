@@ -1,0 +1,10 @@
+AuthUserFile /websites/123reg/LinuxPackage21/my/do/ma/mydomain.co.uk/public_html/.htpasswd
+AuthGroupFile /dev/null
+AuthName secure
+AuthType Basic
+
+require user joebloggs
+require user mickeymouse
+
+order allow,deny
+allow from all
