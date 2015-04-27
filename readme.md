@@ -6,9 +6,9 @@
 
 	1: Go to application/config/config.php
 
-	2: Find <b>$config['index_page'] = 'index.php';</b> and make <b>$config['index_page'] = '';</b>
+	2: Find $config['index_page'] = 'index.php'; and make $config['index_page'] = '';
 
-	3: Add your base url <b>$config['base_url'] = "http://localhost/project/";</b>
+	3: Add your base url $config['base_url'] = "http://localhost/project/";
 
 	4: In the htaccess files select the right one for you. And then place in the main directory.
 
