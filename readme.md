@@ -1,5 +1,6 @@
-<<<<<<< HEAD
 <h2>Codeigniter HTACCESS Examples</h2>
+
+=======================================
 
 <b>Setup</b>
 
