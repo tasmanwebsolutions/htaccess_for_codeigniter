@@ -21,8 +21,10 @@
 Note: Some times you do not need to configure your routes.
 
 controllers >
-	Welcome.php
-	Dashboard.php
+
+controllers >	Welcome.php
+	
+controllers >	Dashboard.php
 
 application/config/routes.php
 
