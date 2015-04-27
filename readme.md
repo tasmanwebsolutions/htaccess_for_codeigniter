@@ -2,6 +2,8 @@
 
 =======================================
 
+Disclaimer: Please note these are just examples some may not work and some may work, it all depends on your codeigniter and server setup.
+
 <b>Setup</b>
 
 	1: Go to application/config/config.php
@@ -20,16 +22,12 @@
 
 Note: Some times you do not need to configure your routes.
 
-controllers >
-
-controllers >	Welcome.php
-
-controllers >	Dashboard.php
-
 	$route['default_controller'] = 'welcome';
 	
 	$route['dashboard'] = "dashboard"; Example 1
 
 	$route['dashboard/(:any)'] = "dashboard/$1" Example 2
 
-Disclaimer: Please note these are just examples some may not work and some may work, it all depends on your codeigniter and server setup.
+<b>Pull Request</b>
+	
+<p>You are more than welcome to create a pull request <a href="https://github.com/riwakawebsitedesigns/htaccess_for_codeigniter/pulls" target="_blank">Pull Request</a> If you come across any more htacces examples that might be a good idea to have.</p> 
