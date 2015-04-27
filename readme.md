@@ -12,7 +12,8 @@
 
 	3: Add your base url $config['base_url'] = "http://localhost/project/";
 
-	4: In the htaccess files select the right one for you. And then place in the main directory.
+	4: In the htaccess files select the right one for you. 
+	And then place in the main directory.
 
 	5: Do not touch the htaccess in application folder.
 
