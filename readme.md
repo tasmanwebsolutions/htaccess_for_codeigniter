@@ -2,7 +2,7 @@
 
 =======================================
 
-Disclaimer: Please note these are just examples some may not work and some may work, it all depends on your codeigniter and server setup.
+<b>Disclaimer:</b> Please note these are just examples some may not work and some may work, it all depends on your codeigniter and server setup.
 
 <b>Setup</b>
 
