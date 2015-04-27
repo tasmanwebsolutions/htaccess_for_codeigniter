@@ -1,4 +1,5 @@
 <h2>Codeigniter HTACCESS Examples</h2>
+<h3>Removing index.php from url</h3>
 
 =======================================
 
