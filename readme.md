@@ -1,6 +1,5 @@
 <h2>Codeigniter HTACCESS Examples</h2>
 <h3>Removing index.php from url</h3>
-
 =======================================
 
 <b>Disclaimer:</b> Please note these are just examples some may not work and some may work, it all depends on your codeigniter and server setup.
