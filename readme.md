@@ -16,7 +16,7 @@
 
 	6: You may need to configure your routes in application/config/routes.php
 
-<b>Example Routes</b>
+<b>Example Routes application/config/routes.php</b>
 
 Note: Some times you do not need to configure your routes.
 
@@ -25,8 +25,6 @@ controllers >
 controllers >	Welcome.php
 
 controllers >	Dashboard.php
-
-application/config/routes.php
 
 	$route['default_controller'] = 'welcome';
 	
