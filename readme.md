@@ -23,18 +23,15 @@ Note: Some times you do not need to configure your routes.
 controllers >
 
 controllers >	Welcome.php
-	
+
 controllers >	Dashboard.php
 
 application/config/routes.php
 
 	$route['default_controller'] = 'welcome';
 	
-	$route['dashboard'] = "dashboard";
+	$route['dashboard'] = "dashboard"; Example 1
 
-Add any if have example user id http://localhost/dashboard/25/ 25 would be user id. You do not have to have
-the controller named dashboard you can name it to what you want just examples.
-
-	$route['dashboard/(:any)'] = "dashboard/$1"
+	$route['dashboard/(:any)'] = "dashboard/$1" Example 2
 
 Disclaimer: Please note these are just examples some may not work and some may work, it all depends on your codeigniter and server setup.
