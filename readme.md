@@ -1,4 +1,7 @@
-<h2>Codeigniter HTACCESS Examples</h2>
+<h2>Codeigniter 2 & 3</h2>
+<h3>.htaccess examples</h3>
+
+=======================================
 <h3>Removing index.php from url</h3>
 =======================================
 
