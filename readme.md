@@ -1,9 +1,8 @@
-<h2>Codeigniter 2 & 3</h2>
-<h3>.htaccess examples</h3>
+<h3>Codeigniter 2 & 3 htaccess examples</h3>
 
 =======================================
 <h3>Removing index.php from url</h3>
-=======================================
+
 
 <b>Disclaimer:</b> Please note these are just examples some may not work and some may work, it all depends on your codeigniter and server setup.
 
