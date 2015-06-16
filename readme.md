@@ -1,7 +1,5 @@
 <h3>Codeigniter 2 & 3 htaccess examples</h3>
 
-=======================================
-
 <h4>Read First:</h4>
 <b>Disclaimer:</b> Please note these .htaccess files some may not work and some may work, it all depends on your <b>Codeigniter Version and Server and Operating System</b>
 
