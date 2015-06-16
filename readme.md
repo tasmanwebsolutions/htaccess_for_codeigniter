@@ -1,10 +1,13 @@
 <h3>Codeigniter 2 & 3 htaccess examples</h3>
 
 =======================================
+
+<h4>Read First:</h4>
+<b>Disclaimer:</b> Please note these are just examples some may not work and some may work, it all depends on your codeigniter and server setup. Not sure if would work on Linux Servers.
+
+<p>Note: Not sure if these will work on your server if you find one that is not on list please create a pull request and add the htaccess that you would like. And also add what OS for ie. linux windows etc.</p>
+
 <h3>Removing index.php from url</h3>
-
-
-<b>Disclaimer:</b> Please note these are just examples some may not work and some may work, it all depends on your codeigniter and server setup.
 
 <b>Setup</b>
 
