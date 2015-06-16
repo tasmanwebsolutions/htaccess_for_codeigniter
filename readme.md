@@ -3,7 +3,7 @@
 =======================================
 
 <h4>Read First:</h4>
-<b>Disclaimer:</b> Please note these .htaccess files some may not work and some may work, it all depends on your codeigniter and <b>Server And Operating System</b>
+<b>Disclaimer:</b> Please note these .htaccess files some may not work and some may work, it all depends on your <b>Codeigniter Version and Server And Operating System</b>
 
 <p>Note: If you find one that is not on list please create a pull request and add the htaccess that you would like. And also add what OS for ie. linux windows etc.</p>
 
