@@ -21,9 +21,9 @@
 	
 	4: And replace $config['index_page'] = '';
 
-	5: Choose your .htaccess file, And then place in the main directory. Don't touch the application folder .htaccess
+	5: Choose your .htaccess file, And then place in the main directory.
 
-	6: Do not touch the htaccess in application folder.
+	6: Do not touch the htaccess file in application folder.
 
 	7: You may need to configure your routes in application/config/routes.php
 
