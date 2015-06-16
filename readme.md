@@ -14,15 +14,14 @@
 <b>Setup</b>
 
 	1: Go to application/config/config.php
-
-	2: Find $config['index_page'] = 'index.php'; 
 	
-	3: And replace $config['index_page'] = '';
+	2: Add your base url $config['base_url'] = "http://localhost/project/";
 
-	4: Add your base url $config['base_url'] = "http://localhost/project/";
+	3: Find $config['index_page'] = 'index.php'; 
+	
+	4: And replace $config['index_page'] = '';
 
-	5: In the htaccess files select the right one for you. 
-	And then place in the main directory.
+	5: Select the right one for you. <b>And then place in the main directory.</b>
 
 	6: Do not touch the htaccess in application folder.
 
