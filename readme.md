@@ -9,6 +9,10 @@
 
 <b>Comment:</b><p>I have used the first .htaccess with xampp and windows 7 and 8.1 works fine.</p>
 
+User Guide For Codeigniter 2 + <a href="http://www.codeigniter.com/userguide2/" target="_blank">Codeigniter 2 + Userguide</a>
+
+User Guide For Codeigniter 3 + <a href="http://www.codeigniter.com/user_guide/" target="_blank">Codeigniter 3 + Userguide</a>
+
 <h3>Removing index.php from url</h3>
 
 <b>Setup</b>
