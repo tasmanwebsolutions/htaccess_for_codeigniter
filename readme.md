@@ -7,6 +7,8 @@
 
 <p>Note: If you find one that is not on list please create a pull request and add the htaccess that you would like. And also add what OS for ie. linux windows etc.</p>
 
+<b>Comment:</b><p>I have used the first .htaccess with xampp and windows 7 and 8.1 works fine.</p>
+
 <h3>Removing index.php from url</h3>
 
 <b>Setup</b>
