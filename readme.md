@@ -21,7 +21,7 @@
 	
 	4: And replace $config['index_page'] = '';
 
-	5: Select the right one for you. <b>And then place in the main directory.</b>
+	5: Select the right one for you. And then place in the main directory. Don't touch the application folder .htaccess
 
 	6: Do not touch the htaccess in application folder.
 
