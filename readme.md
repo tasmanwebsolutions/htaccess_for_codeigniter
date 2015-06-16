@@ -3,7 +3,7 @@
 =======================================
 
 <h4>Read First:</h4>
-<b>Disclaimer:</b> Please note these .htaccess files some may not work and some may work, it all depends on your <b>Codeigniter Version and Server And Operating System</b>
+<b>Disclaimer:</b> Please note these .htaccess files some may not work and some may work, it all depends on your <b>Codeigniter Version and Server and Operating System</b>
 
 <p>Note: If you find one that is not on list please create a pull request and add the htaccess that you would like. And also add what OS for ie. linux windows etc.</p>
 
@@ -15,16 +15,18 @@
 
 	1: Go to application/config/config.php
 
-	2: Find $config['index_page'] = 'index.php'; and make $config['index_page'] = '';
+	2: Find $config['index_page'] = 'index.php'; 
+	
+	3: And replace $config['index_page'] = '';
 
-	3: Add your base url $config['base_url'] = "http://localhost/project/";
+	4: Add your base url $config['base_url'] = "http://localhost/project/";
 
-	4: In the htaccess files select the right one for you. 
+	5: In the htaccess files select the right one for you. 
 	And then place in the main directory.
 
-	5: Do not touch the htaccess in application folder.
+	6: Do not touch the htaccess in application folder.
 
-	6: You may need to configure your routes in application/config/routes.php
+	7: You may need to configure your routes in application/config/routes.php
 
 <b>Example Routes application/config/routes.php</b>
 
