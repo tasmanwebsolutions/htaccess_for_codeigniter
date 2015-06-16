@@ -3,9 +3,9 @@
 =======================================
 
 <h4>Read First:</h4>
-<b>Disclaimer:</b> Please note these are just examples some may not work and some may work, it all depends on your codeigniter and server setup. Not sure if would work on Linux Servers.
+<b>Disclaimer:</b> Please note these .htaccess files some may not work and some may work, it all depends on your codeigniter and server setup. Not sure if would work on Linux Servers.
 
-<p>Note: Not sure if these will work on your server if you find one that is not on list please create a pull request and add the htaccess that you would like. And also add what OS for ie. linux windows etc.</p>
+<p>Note: If you find one that is not on list please create a pull request and add the htaccess that you would like. And also add what OS for ie. linux windows etc.</p>
 
 <h3>Removing index.php from url</h3>
 
