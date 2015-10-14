@@ -15,15 +15,15 @@ User Guide For Codeigniter 3 + <a href="http://www.codeigniter.com/user_guide/" 
 
 <b>Setup</b>
 
-	1: Go to application/config/config.php
-	
-	2: Add your base url $config['base_url'] = "http://localhost/project/";
+       	1: Choose your .htaccess file, And then place in the main directory.
 
-	3: Find $config['index_page'] = 'index.php'; 
+	2: Go to application/config/config.php
 	
-	4: And replace $config['index_page'] = '';
+	3: Add your base url $config['base_url'] = "http://localhost/project/";
 
-	5: Choose your .htaccess file, And then place in the main directory.
+	4: Find $config['index_page'] = 'index.php'; 
+	
+        5: And replace $config['index_page'] = '';
 
 	6: Do not touch the htaccess file in application folder.
 
