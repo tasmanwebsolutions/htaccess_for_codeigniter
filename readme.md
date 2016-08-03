@@ -37,4 +37,4 @@ $route['dashboard/(:any)'] = 'dashboard/$1';
 
 <b>Pull Request</b>
 	
-<p>You are more than welcome to create a pull request <a href="https://github.com/riwakawebsitedesigns/htaccess_for_codeigniter/pulls" target="_blank">Pull Request</a> If you come across any more htacces examples that might be a good idea to have. If you feel the read me file needs to be updated or improved you can make a pull request also.</p>
+<p>You are more than welcome to create a pull request <a href="https://github.com/wolfgang1983/htaccess_for_codeigniter/pulls" target="_blank">Pull Request</a> If you come across any more htacces examples that might be a good idea to have. If you feel the read me file needs to be updated or improved you can make a pull request also.</p>
