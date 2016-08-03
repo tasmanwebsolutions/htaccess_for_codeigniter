@@ -15,29 +15,29 @@ User Guide For Codeigniter 3 + <a href="http://www.codeigniter.com/user_guide/" 
 
 <b>Setup</b>
 
-       	1: Choose your .htaccess file, And then place in the main directory.
+1: Choose your .htaccess file, And then place in the main directory.
 
-	2: Go to application/config/config.php
+2: Go to application/config/config.php
+
+3: Add your base url $config['base_url'] = "http://localhost/project/";
+
+4: Find $config['index_page'] = 'index.php'; 
 	
-	3: Add your base url $config['base_url'] = "http://localhost/project/";
+5: And replace $config['index_page'] = '';
 
-	4: Find $config['index_page'] = 'index.php'; 
-	
-        5: And replace $config['index_page'] = '';
+6: Do not touch the htaccess file in application folder.
 
-	6: Do not touch the htaccess file in application folder.
-
-	7: You may need to configure your routes in application/config/routes.php
+7: You may need to configure your routes in application/config/routes.php
 
 <b>Example Routes application/config/routes.php</b>
 
 Note: Some times you do not need to configure your routes.
 
-	$route['default_controller'] = 'welcome';
+$route['default_controller'] = 'welcome';
 	
-	$route['dashboard'] = "dashboard"; Example 1
+$route['dashboard'] = 'dashboard';
 
-	$route['dashboard/(:any)'] = "dashboard/$1" Example 2
+$route['dashboard/(:any)'] = 'dashboard/$1';
 
 <b>Pull Request</b>
 	
