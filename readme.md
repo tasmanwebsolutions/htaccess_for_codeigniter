@@ -1,13 +1,9 @@
-<h3>Codeigniter 2 & 3 .htaccess</h3>
+<h3>Codeigniter 3 And Up</h3>
 
 <h4>Read First:</h4>
 <b>Disclaimer:</b> Please note these .htaccess files some may not work and some may work, it all depends on your <b>Codeigniter Version and Server and Operating System</b>
 
 <p>Note: If you find one that is not on list please create a pull request and add the htaccess that you would like. And also add what OS for ie. linux windows etc.</p>
-
-<b>Comment:</b><p>I have used the first .htaccess with xampp and windows 7 and 8.1 works fine.</p>
-
-User Guide For Codeigniter 2 + <a href="http://www.codeigniter.com/userguide2/" target="_blank">Codeigniter 2 + Userguide</a>
 
 User Guide For Codeigniter 3 + <a href="http://www.codeigniter.com/user_guide/" target="_blank">Codeigniter 3 + Userguide</a>
 
@@ -15,11 +11,11 @@ User Guide For Codeigniter 3 + <a href="http://www.codeigniter.com/user_guide/" 
 
 <b>Setup</b>
 
-1: Choose your .htaccess file, And then place in the main directory.
+1: Choose your .htaccess file, And then place in the main directory but outside of the application folder.
 
 2: Go to application/config/config.php
 
-3: Add your base url $config['base_url'] = "http://localhost/project/";
+3: Set your base url as it is now recommended  $config['base_url'] = "http://localhost/yourprojectname/";
 
 4: Find $config['index_page'] = 'index.php'; 
 	
