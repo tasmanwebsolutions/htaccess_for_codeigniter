@@ -17,7 +17,7 @@ User Guide For Codeigniter 3 + <a href="http://www.codeigniter.com/user_guide/" 
 
 3: Set your base url as it is **NOW RECOMMENDED TO DO SO** something like below  
 
-``$config['base_url'] = "http://localhost/yourprojectname/";`` Don't leave it blank.
+``$config['base_url'] = "http://localhost/yourprojectname/";`` or your domain just Don't leave it blank.
 
 4: Find $config['index_page'] = 'index.php'; 
 	
