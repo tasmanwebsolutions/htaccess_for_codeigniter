@@ -21,7 +21,7 @@ User Guide For Codeigniter 3 + <a href="http://www.codeigniter.com/user_guide/" 
 
 4: Find $config['index_page'] = 'index.php'; 
 	
-5: And replace $config['index_page'] = '';
+5: And replace `$config['index_page'] = '';`
 
 6: Do not touch the htaccess file in application folder.
 
@@ -31,11 +31,11 @@ User Guide For Codeigniter 3 + <a href="http://www.codeigniter.com/user_guide/" 
 
 Note: Some times you do not need to configure your routes.
 
-$route['default_controller'] = 'welcome';
+    $route['default_controller'] = 'welcome';
 	
-$route['dashboard'] = 'dashboard';
+    $route['dashboard'] = 'dashboard';
 
-$route['dashboard/(:any)'] = 'dashboard/$1';
+    $route['dashboard/(:any)'] = 'dashboard/$1';
 
 <b>Pull Request</b>
 	
